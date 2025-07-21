@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = "4.5"
+thiserror = "2.0"
+uuid = { version = "1.17", features = ["v4"] }
